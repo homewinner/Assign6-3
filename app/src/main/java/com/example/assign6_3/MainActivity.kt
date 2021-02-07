@@ -11,7 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val clear = Toast.makeText(applicationContext,"All fields are cleared.", Toast.LENGTH_LONG)
-        val error = Toast.makeText(applicationContext,"All fields are cleared.", Toast.LENGTH_LONG)
         var sumall:Double
         var suminter:Double
         var y1:Double = 0.00
